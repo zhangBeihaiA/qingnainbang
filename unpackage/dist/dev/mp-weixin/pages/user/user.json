@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "用户中心",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#3085FA",
+  "usingComponents": {
+    "news-box": "/components/NewsBox/NewsBox"
+  }
+}

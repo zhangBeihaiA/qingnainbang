@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "青年帮新闻",
+				"navigationBarBackgroundColor": "#3085FA"
+			}
+		}
+	    ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户中心",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#3085FA"
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#3085FA"
+            }
+            
+        }
+    ],
+	"globalStyle": { 
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#3085FA",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "/static/images/home-h (2).png"
+			},
+			{
+				"text": "个人",
+				"pagePath": "pages/user/user",
+				"iconPath": "static/images/user (2).png",
+				"selectedIconPath": "static/images/user-h (2).png"
+			}
+			
+		]
+	}
+}
